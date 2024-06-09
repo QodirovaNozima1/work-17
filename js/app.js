@@ -1,7 +1,7 @@
 const navbar = document.querySelector(".navbar__desc")
 
 function toggleShow (){
-    navbar.classList.toggle("show")
+    navbar.classList.toggle("Show")
 }
 
 
