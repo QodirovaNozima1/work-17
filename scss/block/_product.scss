@@ -45,9 +45,10 @@
             font-weight: 400;
         }
         i{
+            transition: .5s;
             &:hover{
                 padding-right: 5px;
-                color: aqua;
+                color: red;
             }
         }
     }
@@ -58,9 +59,6 @@
         padding-top: 5px;
         transition: .24s;
         cursor: pointer;
-        &:hover{
-            color: aqua;
-        }
     }
     .card__info{
         padding-left: 10px;
